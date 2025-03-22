@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Best Dice Games
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Türkçe](#türkçe) | [English](#english)
 
-## Available Scripts
+![Dice Game Screenshot](./ss/ss2.png)
 
-In the project directory, you can run:
+## Türkçe
 
-### `npm start`
+### Proje Hakkında
+Bu proje, React kullanılarak geliştirilmiş basit bir zar oyunudur. Oyunun amacı, bilgisayara karşı zar atarak daha yüksek sayı getirmeye çalışmaktır.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Özellikler
+- Çoklu dil desteği (Türkçe, İngilizce, Almanca)
+- Kullanıcı adı değiştirme
+- Sosyal medya ile giriş yapma seçenekleri
+- Oyun istatistikleri (Kazanılan, Kaybedilen, Berabere)
+- Animasyonlu zar atma
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Kurulum
+1. Projeyi klonlayın:
+   ```bash
+   git clone https://github.com/ahmetemreari/best-dice-games.git
+   cd best-dice-games
+   ```
 
-### `npm test`
+2. Bağımlılıkları yükleyin:
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Uygulamayı başlatın:
+   ```bash
+   npm start
+   ```
 
-### `npm run build`
+### Kullanım
+1. Giriş sayfasında kullanıcı adı ve şifre girin veya misafir olarak devam edin
+2. Dil seçeneğini değiştirerek tercih ettiğiniz dilde oynayabilirsiniz
+3. Oyun ekranında "Zar At!" butonuna tıklayarak zar atabilirsiniz
+4. Sonuç ekranda görüntülenecek ve istatistikler güncellenecektir
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Geliştirici
+[Ahmet Emre Arı](https://www.linkedin.com/in/aemreari/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## English
 
-### `npm run eject`
+### About the Project
+This project is a simple dice game developed using React. The goal of the game is to roll the dice and try to get a higher number than the computer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Features
+- Multiple language support (Turkish, English, German)
+- Username customization
+- Social media login options
+- Game statistics (Wins, Losses, Draws)
+- Animated dice rolling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
+1. Clone the project:
+   ```bash
+   git clone https://github.com/ahmetemreari/best-dice-games.git
+   cd best-dice-games
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Start the application:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+### Usage
+1. Enter username and password on the login page or continue as guest
+2. Change the language option to play in your preferred language
+3. Click the "Roll Dice!" button on the game screen to roll the dice
+4. The result will be displayed on the screen and statistics will be updated
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Developer
+[Ahmet Emre Arı](https://www.linkedin.com/in/aemreari/)

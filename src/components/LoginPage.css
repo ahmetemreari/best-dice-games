@@ -1,0 +1,165 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e5efa, #38b6ff);
+    padding: 1rem;
+  }
+  
+  .login-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .language-selector {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  .language-selector select {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h1 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  .logo {
+    height: 80px;
+    margin: 0 auto;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .form-links a {
+    color: #3a86ff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #3a86ff;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2a75e0;
+  }
+  
+  .btn-secondary {
+    background-color: #e9ecef;
+    color: #495057;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #dde2e6;
+  }
+  
+  .guest-login {
+    margin-bottom: 1.5rem;
+  }
+  
+  .guest-login .btn {
+    width: 100%;
+  }
+  
+  .social-login {
+    text-align: center;
+  }
+  
+  .social-login p {
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .google {
+    background-color: #DB4437;
+  }
+  
+  .facebook {
+    background-color: #4267B2;
+  }
+  
+  .twitter {
+    background-color: #1DA1F2;
+  }

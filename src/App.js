@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import LoginPage from './components/LoginPage';
+import DiceGame from './components/DiceGame';
+import Footer from './components/Footer';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [username, setUsername] = useState('');
+  const [language, setLanguage] = useState('tr');
+
+  const handleLogin = (loginData) => {
+    setUsername(loginData.username);
+    setLanguage(loginData.language);
+    setIsLoggedIn(true);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!isLoggedIn ? (
+        <LoginPage onLogin={handleLogin} />
+      ) : (
+        <DiceGame playerName={username} language={language} />
+      )}
+      <Footer />
     </div>
   );
 }
