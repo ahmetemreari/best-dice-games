@@ -3,8 +3,7 @@
 [Türkçe](#türkçe) | [English](#english)
 
 ![Dice Game Screenshot](./ss/ss1.png)
-![Dice Game Screenshot](./ss/ss2.png)
-![Dice Game Screenshot](./ss/ss3.png)
+
 
 ## Türkçe
 
@@ -83,3 +82,6 @@ This project is a simple dice game developed using React. The goal of the game i
 
 ### Developer
 [Ahmet Emre Arı](https://www.linkedin.com/in/aemreari/)
+
+![Dice Game Screenshot](./ss/ss2.png)
+![Dice Game Screenshot](./ss/ss3.png)
