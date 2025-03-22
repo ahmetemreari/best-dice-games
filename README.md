@@ -2,7 +2,9 @@
 
 [Türkçe](#türkçe) | [English](#english)
 
+![Dice Game Screenshot](./ss/ss1.png)
 ![Dice Game Screenshot](./ss/ss2.png)
+![Dice Game Screenshot](./ss/ss3.png)
 
 ## Türkçe
 
